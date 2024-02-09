@@ -15,7 +15,6 @@
 - Cannot handle parent directories in the commands. E.g `ls foo/bar parent/child/node` or `mkdir foo/bar`
 - Cannot change to a separate directory when already in another directory. Needs to return to root first.
 - Does not have content in files or ability to add content to files
-- Cannot `rm` files or directories
 
 -----
 
