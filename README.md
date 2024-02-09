@@ -1,8 +1,8 @@
 ## CPST Assessment - File System Emulator
 
 ### How to use:
-- Can be run locally on the terminal with `python file_system.py` if Python is installed. Should be able to run on py3.9+
-- Alternatively, download the executable and run the program from there.
+- Option 1: Run the `file_system.py` file locally with `python file_system.py` if Python 3 is installed. Python can be installed here: https://www.python.org/downloads/ or using homebrew
+- Option 2: Run the executable `file_system.exe` on a Windows device.
 
 ### Functionality:
 - Can handle ls, mkdir, cd, touch
