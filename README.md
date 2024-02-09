@@ -20,18 +20,50 @@
 -----
 
  ### Test Cases:
+- `mkdir child`
 - `ls`
-- `mkdir foo bar test`
+- `mkdir foo bar test dog horse`
+- `ls`
 - `touch file.txt`
+- `ls`
 - `cd foo`
-- `mkdir cat`
+- `mkdir cat kitten`
 - `touch foobar.txt`
 - `ls`
+- `cd cat`
+- `touch calico.txt tuxedo.txt tabby.txt orange.txt`
+- `ls`
+- `cd ~`
+- `ls foo`
+- `cd bar`
 - `cd ..`
+- `cd test`
+- `cd /`
+- `ls file.txt`
+
+#### Bonus: rm command:
+- `rm test`
+- `rm -r`
+- `rm -d`
+- `rm -dt test`
+- `rm - test`
+- `rm -d test`
+- `rm -d dog horse`
+- `rm foo`
+- `ls`
+- `cd foo`
+- `rm -d kitten foobar.txt`
+- `ls`
+- `cd cat`
+- `rm orange.txt tuxedo.txt`
 - `ls`
 
-Cases to test Failure:
+#### Cases to test errors :
+- `ls blathers`
 - `mkdir`
 - `cd`
+- `cd test touch`
 - `touch`
-- `ls blabbers`
+- `random`
+- `do as i say`
+- `exit`
