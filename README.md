@@ -31,7 +31,7 @@
 - `touch foobar.txt`
 - `ls`
 - `cd cat`
-- `touch calico.txt tuxedo.txt tabby.txt orange.txt`
+- `touch calico.txt tuxedo.md tabby.txt orange.yaml`
 - `ls`
 - `cd ~`
 - `ls foo`
@@ -41,23 +41,6 @@
 - `cd /`
 - `ls file.txt`
 
-#### Bonus: rm command:
-- `rm test`
-- `rm -r`
-- `rm -d`
-- `rm -dt test`
-- `rm - test`
-- `rm -d test`
-- `rm -d dog horse`
-- `rm foo`
-- `ls`
-- `cd foo`
-- `rm -d kitten foobar.txt`
-- `ls`
-- `cd cat`
-- `rm orange.txt tuxedo.txt`
-- `ls`
-
 #### Cases to test errors :
 - `ls blathers`
 - `mkdir`
@@ -66,4 +49,23 @@
 - `touch`
 - `random`
 - `do as i say`
-- `exit`
+
+#### BONUS: rm command:
+- `rm test`
+- `rm -r`
+- `rm -d`
+- `rm -dt test`
+- `rm - test`
+- `rm -d test`
+- `rm -d dog horse`
+- `rm -d foo`
+- `ls`
+- `cd foo`
+- `rm -d kitten foobar.txt`
+- `ls`
+- `cd cat`
+- `rm orange.yaml tuxedo.md`
+- `ls`
+
+#### Exit
+ - `exit`
