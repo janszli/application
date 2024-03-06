@@ -1,4 +1,4 @@
-## CPST Assessment - File System Emulator
+## Check Point's Take Home Assessment - File System Emulator
 
 ### How to use:
 - Option 1: Run the `file_system.py` file locally with `python file_system.py` if Python 3 is installed. Python can be installed here: https://www.python.org/downloads/ or using homebrew
